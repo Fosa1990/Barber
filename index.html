@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>color barber</title>
+    <title>Barber</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;600;700&display=swap"
@@ -52,7 +52,7 @@
     </header>
     <main>
       <!-- =============== HERO =============== -->
-      <section class="hero">
+      <section id="home" class="hero">
         <div class="container">
           <h1 class="hero-title">
             <span class="accent-title">Hairstyle</span> Reflects The Personality
@@ -67,7 +67,7 @@
       </section>
 
       <!-- ==================== History ==================== -->
-      <section class="history">
+      <section id="history" class="history">
         <div class="container">
           <h2 class="history-title">
             Our
@@ -87,9 +87,9 @@
         </div>
       </section>
       <!-- =============== Services =============== -->
-      <section class="services">
+      <section id="service" class="services">
         <div class="container">
-          <h2 class="title">
+          <h2 class="services-title">
             Services We
             <span class="accent-title">Provide</span>
           </h2>
@@ -134,9 +134,99 @@
         </div>
       </section>
       <!-- =============== Our Gallery =============== -->
-      <section class="gallery"></section>
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <h2 class="gallery-title">
+            Our <span class="accent-title">Gallery</span>
+          </h2>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img
+                src="./images/handsome-man-barbershop-shaving-beard_n1.jpg"
+                alt="master cuts the beard"
+                width="435"
+                height="435"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./images/young-man-barbershop-trimming-hair_n2.jpg"
+                alt="master cuts the hair on the head"
+                width="435"
+                height="435"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./images/young-man-barbershop-trimming-hair_n3.jpg"
+                alt="master cuts the hair on the head"
+                width="435"
+                height="435"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./images/handsome-man-barbershop-shaving-beard_n4.jpg"
+                alt="master cuts the beard"
+                width="435"
+                height="435"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./images/handsome-man-shaving-beard-barbershop_n5.jpg"
+                alt="master shaves the beard"
+                width="435"
+                height="435"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                src="./images/handsome-man-barbershop-shaving-beard_n6.jpg"
+                alt="master cuts the beard"
+                width="435"
+                height="435"
+              />
+            </li>
+          </ul>
+          <button class="button" type="button">View All</button>
+        </div>
+      </section>
     </main>
     <!-- =============== FOOTER =============== -->
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-logo-wrapper">
+          <p class="footer-logo logo">arber</p>
+        </div>
+        <p class="footer-text">
+          It is a long established fact that a reader will be distracted by the
+          readable
+        </p>
+        <ul class="footer-social-list">
+          <li class="footer-item">
+            <a class="social-link" href="">
+              <svg class="social-icon" width="19" height="38">
+                <use href="./images/sprite.svg#icon-social-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="social-link" href="">
+              <svg class="social-icon" width="32" height="26">
+                <use href="./images/sprite.svg#icon-social-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a class="social-link" href="">
+              <svg class="social-icon" width="28" height="29">
+                <use href="./images/sprite.svg#icon-social-google"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
