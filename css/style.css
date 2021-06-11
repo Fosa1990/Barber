@@ -48,6 +48,11 @@ body {
   box-shadow: 0 10px 50px var(--accent-color);
   transition: all var(--time-500ms) ease-out;
 }
+.button:active {
+  background-color: var(--accent-color);
+  box-shadow: 0 5px 20px 0px var(--text-color);
+  transform: translateY(4px);
+}
 button {
   border: none;
   background: transparent;
@@ -113,6 +118,11 @@ button {
   background-color: var(--accent-color);
   border-radius: 5px;
   transition: all var(--time-500ms) ease-out;
+}
+.nav-list a:active {
+  background-color: var(--accent-color);
+  box-shadow: 0 5px 20px 0px var(--text-color);
+  transform: translateY(4px);
 }
 /* Buttons List Header */
 .button-list {
@@ -268,8 +278,7 @@ button {
   box-shadow: 0px 1px 0px var(--static-icon);
   border-radius: 13px;
 
-  transition: background-color var(--time-500ms)
-    var(--cubic);
+  transition: background-color var(--time-500ms) var(--cubic);
 }
 .services-item:hover .icon-wrapper,
 .services-item:focus .icon-wrapper {
@@ -489,8 +498,43 @@ button {
   transform: rotateZ(360deg);
   background-color: var(--light-blue);
 }
+.social-link:active {
+  background-color: var(--light-blue);
+  box-shadow: 0 5px 20px 0px var(--text-color);
+  transform: translateY(4px);
+}
+
 /* <Svg> */
 .social-icon {
   fill: currentColor;
 }
-/* =============== FOOTER END =============== */ 
+/* =============== FOOTER END =============== */
+
+/* Button UP */
+.top-button {
+  z-index: 900;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+
+  /* background-image: url('https://image.flaticon.com/icons/svg/2925/2925365.svg');
+  background-size: contain; */
+  background: var(--accent-color);
+
+  cursor: pointer;
+}
