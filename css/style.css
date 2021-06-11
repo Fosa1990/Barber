@@ -18,6 +18,11 @@
   --time-1000ms: 1000ms;
 }
 /* ========== COMMONS START ========== */
+/* ========== HTML START ========== */
+html {
+  scroll-behavior: smooth;
+}
+/* ========== HTML END ========== */
 /* ================ BODY ================ */
 body {
   font-family: 'Catamaran', sans-serif;
